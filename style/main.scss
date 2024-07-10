@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 15px;
+	background: #fff;
+	position: relative;
+	font-family: "Inter", sans-serif;
+	
+	.img__logo{
+		width: 90px;
+		height: 75px;
+	}
+
+	.logo__title{
+		position: relative;
+		font-size: 43px;
+		font-weight: bold;
+	}
+
+	.logo_sub__title{
+		color: darkgray;
+		width: 500px;
+		margin-top: 25px;
+		font-size: 25px;
+	}
+
+	.title__container{
+		top: 130px;
+		position: relative;
+	}
+
+	.button{
+		color: white;
+		background: #FD7E14;
+		width: 100px;
+		padding: 19px 83px;
+		font-size: 20px;
+		border-radius: 5px;
+		position: relative;
+		top: 180px;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	.button_discord{
+		color: rgb(96, 96, 243);
+		font-weight: 500;
+		font-size: 22px;
+		font-weight: 500;
+		top: 138px;
+		position: relative;
+		width: 150px;
+		left: 330px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.discord_logo{
+		width: 25px;
+		height: 20px;
+		left: 320px;
+		position: relative;
+		top: 140px;
+	}
+
+	.bg{
+		width: 40%;
+		height: 100vh;
+		float: right;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.container{
+		width: 50%;
+		top: 50px;
+		position: absolute;
+		left: 200px;
+		height: 100%;
+
+	}
+
+}
